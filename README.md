@@ -14,14 +14,14 @@ Here is an explanation of each feature in the dataset:
 * **PlayerWithLongestRoad**	- Indicates which player had longest road at the end of game. 0 means no player had largest army
 * **DiceStats** - Dice stats indicates amount of times each number of eyes rolled. Ordering goes from 2-12
 * **ResourceCardsDrawn** - Indicats number of resources drawn throughout the game. Ordering is wood, brick, sheep, wheat, ore
-* **ActivityStats** - The indicies in this array has the following attribute in the following order:
+* **ActivityStats** - The indicies in this array has the following order:
 * * Total times proposed to trade,
 * * Total successful trades with opponents,
 * * Amount of resources used,
 * * Amount of ressource income blocked,
 * * Amount of dev cards bought,
 * * Amount of dev cards used
-* **ResourceStats** - The indicies in this array has the following attributes in the following order
+* **ResourceStats** - The indicies in this array has the following order: 
 * * Total ressource income
 * * Total ressource loss
 * * Total ressource score
@@ -34,5 +34,7 @@ Here is an explanation of each feature in the dataset:
 * * Ressource lost by dev cards
 * * Ressource lost by trading
 * * Ressource gained by gold tiles (Not used in original game)
+
+For the ResourceStats and ActivityStats these values exists for each player in the dataset.
 
 ![alt text](image.png)
