@@ -1,6 +1,6 @@
 # CatanAnalysis
 This repository is my personal tracking of played catan games on colonist.io. Currently i am manually entering all information into the DB after each game. The purpose of this repository is to contribute with a dataset of catan games containing features to fully describe a game and end-game statistics.
- 
+(This is currently WIP) 
 ## CatanDB
 Here is an explanation of each feature in the dataset:
 * **Map string** - A string representing the map of the board. Each tiles is represented by the two first letters of the resource name (eg. wh, sh, wo, or, br) followed by the die number. The ordering is row by row, top to bottom, going left to right. (Shown in below picture)
