@@ -21,6 +21,12 @@ Here is an explanation of each feature in the dataset:
 * * Amount of ressource income blocked,
 * * Amount of dev cards bought,
 * * Amount of dev cards used
+* **DevCardStats** The indicies in this array are the amount of dev cards drawn in the following order:
+* * Knigts
+* * Victory point
+* * Monopoly
+* * Road Builder
+* * Year of Plenty
 * **ResourceStats** - The indicies in this array has the following order: 
 * * Total ressource income
 * * Total ressource loss
