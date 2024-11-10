@@ -37,4 +37,4 @@ Here is an explanation of each feature in the dataset:
 
 For the ResourceStats and ActivityStats these values exists for each player in the dataset.
 
-![alt text](image.png)
+![alt text](image-1.png)
